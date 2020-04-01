@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:background="#ff00ff00"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="안녕하세여 초보 개발자 입니다."
+        android:textColor="#ff0000"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오징어" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="갑오징어" />
+    </RadioGroup>
+<CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="문어"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="67dp" />
+
+</LinearLayout>
